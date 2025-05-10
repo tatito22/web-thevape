@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fef2f2; /* Color suave de fondo */
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff5b5b; /* Color salmón */
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ff7a7a; /* Color rosa suave en hover */
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 3rem;
+    background-color: #ffb3b3; /* Fondo rosado claro */
+    color: #3e3e3e;
+    background-image: url('https://via.placeholder.com/1200x600'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #ff5b5b; /* Color salmón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.banner button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Sección "Nosotros" */
+.nosotros {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #444;
+}
+
+.nosotros h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.nosotros p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Sección "Productos" */
+.productos {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffe0e0; /* Fondo suave de salmón */
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 16px;
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #ff5b5b; /* Título en color salmón */
+}
+
+.producto button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #ff7a7a;
+}
+
+/* Sección "Contacto" */
+.contacto {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fdf1f1; /* Fondo suave */
+}
+
+.contacto h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.contacto button {
+    background-color: #ff5b5b; /* Color salmón */
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #ff7a7a; /* Hover más fuerte */
+}
+
+.contacto a {
+    text-decoration: none;
+}
+
+/* Desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
