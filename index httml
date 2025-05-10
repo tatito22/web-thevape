@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheVape.Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Banner de bienvenida -->
+    <section class="banner">
+        <h2>¡Bienvenido a TheVape.Club!</h2>
+        <p>Explorá nuestras mejores ofertas en vapes desechables y recargables.</p>
+        <button><a href="#productos">Ver Productos</a></button>
+    </section>
+
+   <!-- Producto 1 -->
+<div class="producto">
+  <img src="https://mypodseurope.com/assets/uploads/product_small/elf-bar-ice-king-30000-kiwi-passion-fruit-guava.webp" alt="Elfbar Ice King">
+  <h4>Elfbar Ice King</h4>
+  <p>$30.000</p>
+  <a href="mailto:tatin1118@gmail.com?subject=Pedido%20de%20Elfbar%20Ice%20King&body=Hola,%20quiero%20comprar%20el%20Elfbar%20Ice%20King.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+    <button>Agregar al pedido</button>
+  </a>
+</div>
+
+<!-- Producto 2 -->
+<div class="producto">
+  <img src="https://cdn.shopify.com/s/files/1/0562/9296/6584/files/Elf_Bar_Lost_Mary_OS5000_Luster_Edition_Disposable_Vape_-_5000_Puffs__60850_391cd579-bb94-4232-856d-35f16b751cb5_600x600.jpg?v=1714340931" alt="Lost Mary 5000">
+  <h4>Lost Mary 5000</h4>
+  <p>$12.000</p>
+  <a href="mailto:tatin1118@gmail.com?subject=Pedido%20de%20Lost%20Mary%205000&body=Hola,%20quiero%20comprar%20el%20Lost%20Mary%205000.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+    <button>Agregar al pedido</button>
+  </a>
+</div>
+
+<!-- Producto 3 -->
+<div class="producto">
+  <img src="https://vapea.ar/wp-content/uploads/2025/02/lost-angel-pro-max-vape-5-pack-7d04c6a7390d293da317354194517143-1024-1024.webp" alt="Lost Angel 20k Pro Max">
+  <h4>Lost Angel 20k Pro Max</h4>
+  <p>$20.000</p>
+  <a href="mailto:tatin1118@gmail.com?subject=Pedido%20de%20Lost%20Angel%2020k%20Pro%20Max&body=Hola,%20quiero%20comprar%20el%20Lost%20Angel%2020k%20Pro%20Max.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+    <button>Agregar al pedido</button>
+  </a>
+</div>
+<!-- Producto 4 -->
+<div class="producto">
+  <img src="https://acdn-us.mitiendanube.com/stores/004/947/311/products/d9d366_3d272498202c4a79b9f208d14953e035mv2-3f70c239a257d2800a17286656240223-1024-1024.webp" alt="Lost Mary 3000">
+  <h4>Ignite V150</h4>
+  <p>$20.000</p>
+  <a href="mailto:tatin1118@gmail.com?subject=Pedido%20de%20Lost%20Mary%203000&body=Hola,%20quiero%20comprar%20el%20Lost%20Mary%203000.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+    <button>Agregar al pedido</button>
+  </a>
+</div>
+
+<!-- Producto 5 -->
+<div class="producto">
+  <img src="https://cdn.pedix.app/5mIKRIy1b6LqBJ7QuzIc/products/1723821384580.png?size=1500x1500" alt="Elfbar 6000">
+  <h4>Lost Mary 20000</h4>
+  <p>$25.000</p>
+  <a href="mailto:tatin1118@gmail.com?subject=Pedido%20de%20Elfbar%206000&body=Hola,%20quiero%20comprar%20el%20Elfbar%206000.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+    <button>Agregar al pedido</button>
+  </a>
+</div>
+
+
+    <!-- Sección "Contacto" -->
+    <section class="contacto" id="contacto">
+        <h3>Contáctanos</h3>
+        <p>¡Estamos aquí para ayudarte! Puedes contactarnos por WhatsApp o Instagram.</p>
+        
+           <!-- Botón de Email -->
+    <a href="mailto:tatin1118@gmail.com?subject=Consulta%20sobre%20productos&body=Hola,%20me%20interesa%20realizar%20una%20consulta.%20Mi%20nombre%20es%20____%20y%20estoy%20en%20____." target="_blank">
+        <button>Contáctame por Email</button>
+    </a>
+        
+        <!-- Botón de Instagram -->
+        <a href="https://www.instagram.com/thevape.club?igsh=andvYzczcmFvZjV3&utm_source=qr" target="_blank">
+            <button>Visitar Instagram</button>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 TheVape.Club | Contacto: contacto@thevape.club</p>
+    </footer>
+
+    <!-- Script para interactividad -->
+    <script>
+        // Función que muestra el mensaje "Producto agregado al carrito"
+        function agregarAlCarrito() {
+            alert("¡Producto agregado al carrito!");
+        }
+
+        // Asignar la función al botón de cada producto
+        document.querySelectorAll('.producto button').forEach(button => {
+            button.addEventListener('click', agregarAlCarrito);
+        });
+    </script>
+
+</body>
+</html>
